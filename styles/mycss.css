@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    font-family: Poppins, serif;
+    background: #fff url(https://sun9-2.userapi.com/impg/tYMecfDMkidcVurb_AztyvFgvhA-x1RgK2t8_Q/wDJ1BQlDVxI.jpg?size=2560x1706&quality=95&sign=903d4da68413153821aa9d88923bb3bc&type=album) center top/cover no-repeat;
+}
+.nav-link {
+    color: aquamarine;
+
+}
+.navbar-nav .nav-link.active {
+    color: rgb(209, 207, 95);
+}
+.navbar-brand img {
+    width: 65px;
+}
+.nav-link img {
+    width: 30px;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.btn-primary {
+    background: black;
+    border: black;
+    --bs-btn-active-bg: red;
+    --bs-btn-hover-bg: rgb(163, 72, 72);
+}
+.sidebar {
+    color: rgb(245, 245, 245);
+    background-color:black;
+}
+.card-body {
+    background:rgba(105, 87, 98, 0.945);
+}
+.card-title,
+.card-text {
+    color: rgb(238, 238, 238);
+}
+.card a {
+   text-decoration: none;
+   color: #fff;
+}
